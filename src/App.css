@@ -1,0 +1,121 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f7f7b2;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+/* menu  */
+.MuiInputBase-root,
+.MuiOutlinedInput-root,
+.MuiInputBase-input,
+.MuiInputLabel-outlined.MuiInputLabel-shrink,
+.MuiFormControl-root,
+.MuiInputLabel-outlined {
+  color: white !important;
+}
+
+.Menu,
+.Quiz,
+.EndScreen {
+  width: 600px;
+  height: 550px;
+  border-radius: 10px;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Quiz {
+  background: #00f260; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #0575e6,
+    #00f260
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #0575e6,
+    #00f260
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Menu {
+  background-image: linear-gradient(45deg, red, blue);
+}
+
+.EndScreen button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: lightsteelblue;
+}
+
+.Menu > Button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  margin-top: 50px !important;
+  background-color: white;
+}
+
+.Menu > Button:hover {
+  background-color: black;
+  color: white;
+}
+
+.Menu,
+.Quiz,
+.EndScreen h1 {
+  color: white;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Questionsss */
+.Question > img {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+/* answers */
+.options img {
+  height: 80px;
+}
+
+.Quiz button {
+  width: 300px;
+  height: 100px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
